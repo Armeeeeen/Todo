@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todo{
+    border: 1px black solid;
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.todo-item{
+    display: flex;
+    gap: 30px;
+}
+
+.todo-footer{
+    display: flex;
+    gap: 30px;
+}
+
+.todo-header{
+    display: flex;
+    gap: 20px;
+}
